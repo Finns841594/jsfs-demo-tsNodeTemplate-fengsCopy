@@ -30,7 +30,7 @@ echo "{
     \"project\": \"tsconfig.json\"
   }
 }
-" > .estlintrc
+" > .eslintrc
 
 npx scradd . "test" "mocha -r ts-node/register src/**/*.test.ts" -o
 npx scradd . dev "ts-node src/index.ts"
